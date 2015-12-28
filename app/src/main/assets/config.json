@@ -1,0 +1,129 @@
+{
+  "partnerName": "Akshara",
+  "partnerId": "org.ekstep.partner.akshara",
+  "partnerPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvgDm/lRk4ZU4ZUAaLRqXhzxGbRzSFOjOsIEgGAMYkh3+pULK/9evvOhI5X2afbnLLTo6h9MzjzWKio/G5jTH8YRS61ohBnhL8TKkVwXlU9GYnvOZimIoizPXimhNrVcAYvo4GNwrB9sxGFyNPup0CBCnyWifdhKOWGo5LGhNCP9ehmJJchPw23RN+VeF/fsW9WVJNTZFXy4WYbsM7YVGcQWYgCZX4eNqBcckP3aXaFTej1pPHfti2n+BLmudGK60lnZ4ePBidEi6WoPzpMrdMnwzkYOnQ8KBV0LKJr0vzqATzxGMC85fo1OUm+ZMobdl8SCLAzn5+2WFnNKyct1mtwIDAQAB",
+  "sections": [
+    [
+      {
+        "SectionHeading": "Employee Details",
+        "instructions": {
+          "title": "Star(*) denotes Mandatory field.",
+          "displayOrder": 1
+        }
+      },
+
+      {
+      "fieldName": "Skills",
+      "fieldvalue": {
+        "fieldType": "MultipleChoiceMore",
+        "fieldInputType": "None",
+        "validation": {
+          "flag": true,
+          "minimum": 1,
+          "maximum": 0
+        }
+      },
+      "fieldHint": "You can select one or more options",
+      "displayOrder": 5,
+      "fieldValues": ["Java","PHP","Android","SAP"]
+    },
+      {
+      "fieldName": "Gender",
+      "fieldvalue": {
+        "fieldType": "MultipleChoiceSingle",
+        "fieldInputType": "None",
+        "validation": {
+          "flag": true,
+          "minimum": 1,
+          "maximum": 0
+        }
+      },
+      "fieldHint": "You can select one option only",
+      "displayOrder": 6,
+      "fieldValues": ["Male","Female"]
+    }
+          ],
+    [
+      {
+        "SectionHeading": "Address Details",
+        "instructions": {
+          "title": "",
+          "displayOrder": 0
+        }
+      },
+      {
+      "fieldName": "XXXXX",
+      "fieldvalue": {
+        "fieldType": "MultipleChoiceSingle",
+        "fieldInputType": "None",
+        "validation": {
+          "flag": true,
+          "minimum": 1,
+          "maximum": 0
+        }
+      },
+      "fieldHint": "You can select one option only",
+      "displayOrder": 6,
+      "fieldValues": ["Male","Female","XXX"]
+    },
+      {
+        "fieldName": "State",
+        "fieldvalue": {
+          "fieldType": "DropDown",
+          "fieldInputType": "None",
+          "validation": {
+            "flag": true,
+            "minimum": 1,
+            "maximum": 0
+          }
+        },
+        "fieldHint": "please select one state",
+        "displayOrder": 1,
+        "fieldValues": [
+          "Karnataka",
+          "Tamilandu",
+          "Bihar"
+        ]
+      },
+      {
+        "fieldName": "Street Address",
+        "fieldvalue": {
+          "fieldType": "TextComment",
+          "fieldInputType": "textMultiLine",
+          "validation": {
+            "flag": true,
+            "minimum": 1,
+            "maximum": 3
+          }
+        },
+        "fieldHint": "enter address",
+        "displayOrder": 2,
+        "fieldValues": []
+      }
+    ],
+    [
+      {
+        "SectionHeading": "Personal Details",
+        "instructions": {
+          "title": "Please fill all fields",
+          "displayOrder": 1
+        }
+      },
+      {
+        "fieldName": "Name",
+        "fieldvalue": {
+          "fieldType": "Text",
+          "fieldInputType": "text",
+          "validation": {
+            "flag": true,
+            "minimum": 3,
+            "maximum": 25
+          }
+        },
+        "fieldHint": "enter aplhabet character",
+        "displayOrder": 2,
+        "fieldValues": []
+      }
+    ]
+  ]
+}
