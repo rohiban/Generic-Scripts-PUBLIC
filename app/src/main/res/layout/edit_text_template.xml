@@ -1,4 +1,4 @@
-<org.akshara.customviews.CustomEditText
+<org.partner.customviews.CustomEditText
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:id="@+id/editTextTemplate"
@@ -9,4 +9,4 @@
         android:layout_marginTop="5dp"
         android:hint="@string/father_name_hint"
         android:inputType="text"
-        custom:fontAssetName="Roboto-Regular.ttf"></org.akshara.customviews.CustomEditText>
+        custom:fontAssetName="Roboto-Regular.ttf"></org.partner.customviews.CustomEditText>

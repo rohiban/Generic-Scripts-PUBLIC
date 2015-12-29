@@ -13,7 +13,7 @@
             android:orientation="vertical"
 
        >
-       <org.akshara.customviews.CustomButton
+       <org.partner.customviews.CustomButton
            android:id="@+id/REGISTER_PARTNER_btn"
            android:layout_width="match_parent"
            android:layout_height="@dimen/login_button_height"
@@ -25,7 +25,7 @@
            android:textColor="@color/color_text_lablel"
            android:textSize="@dimen/size_16"
            custom:fontAssetName="Roboto-Medium.ttf" />
-       <org.akshara.customviews.CustomButton
+       <org.partner.customviews.CustomButton
            android:id="@+id/START_SESSION_btn"
            android:layout_width="match_parent"
            android:layout_height="@dimen/login_button_height"
@@ -37,7 +37,7 @@
            android:textColor="@color/color_text_lablel"
            android:textSize="@dimen/size_16"
            custom:fontAssetName="Roboto-Medium.ttf" />
-       <org.akshara.customviews.CustomButton
+       <org.partner.customviews.CustomButton
            android:id="@+id/END_SESSION_btn"
            android:layout_width="match_parent"
            android:layout_height="@dimen/login_button_height"

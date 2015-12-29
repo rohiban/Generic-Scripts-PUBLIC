@@ -1,4 +1,4 @@
-<org.akshara.customviews.CustomTextView
+<org.partner.customviews.CustomTextView
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:custom="http://schemas.android.com/apk/res-auto"
 

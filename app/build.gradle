@@ -16,11 +16,11 @@ android {
     defaultConfig {
         ext.buildNumber = System.getenv("BUILD_NUMBER") ?: "local"
 
-        applicationId "org.akshara"
+        applicationId "org.partner"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
-        versionName "1.3.$buildNumber"
+        versionName "1.0.$buildNumber"
     }
     signingConfigs {
         release {
@@ -51,7 +51,7 @@ android {
         }
         flavor.versionName = versionName;
         variant.outputs.each{ output ->
-            output.outputFile = new File(output.outputFile.parent,"Partner-App-" + versionName + ".apk" )
+            output.outputFile = new File(output.outputFile.parent,"Generic-Partner-App-" + versionName + ".apk" )
         }
     }
 }

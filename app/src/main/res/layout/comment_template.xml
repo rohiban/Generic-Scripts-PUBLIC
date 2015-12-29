@@ -1,4 +1,4 @@
-<org.akshara.customviews.CustomEditText
+<org.partner.customviews.CustomEditText
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:id="@+id/commentTemplate"
@@ -12,4 +12,4 @@
         android:inputType="textMultiLine|text"
         android:lines="4"
         android:gravity="top|center_vertical"
-        custom:fontAssetName="Roboto-Regular.ttf"></org.akshara.customviews.CustomEditText>
+        custom:fontAssetName="Roboto-Regular.ttf"></org.partner.customviews.CustomEditText>

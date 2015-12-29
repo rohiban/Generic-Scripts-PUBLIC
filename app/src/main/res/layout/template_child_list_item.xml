@@ -15,7 +15,7 @@
        >
 
 
-           <org.akshara.customviews.CustomTextView
+           <org.partner.customviews.CustomTextView
                android:id="@+id/textViewHeading"
                android:layout_width="match_parent"
                android:layout_height="wrap_content"

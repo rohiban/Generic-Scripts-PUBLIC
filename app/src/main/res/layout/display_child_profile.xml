@@ -6,7 +6,7 @@
     android:padding="@dimen/padding_layout"
     android:background="@color/white"
     tools:context=".MainActivity">
-    <org.akshara.customviews.MyProgressBar
+    <org.partner.customviews.MyProgressBar
         android:visibility="gone"
         android:id="@+id/sendingDetails"
         android:layout_centerInParent="true"
@@ -47,7 +47,7 @@
 
 
 
-    <org.akshara.customviews.CustomButton
+    <org.partner.customviews.CustomButton
         android:id="@+id/Register_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/login_button_height"

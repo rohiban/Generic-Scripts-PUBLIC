@@ -27,7 +27,7 @@
             android:layout_gravity="left|center_vertical"
             android:src="@drawable/icn_menu" />
 
-        <org.akshara.customviews.CustomTextView
+        <org.partner.customviews.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/app_name"
@@ -47,7 +47,7 @@
 
 
 
-            <org.akshara.customviews.CustomTextView
+            <org.partner.customviews.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Connect"

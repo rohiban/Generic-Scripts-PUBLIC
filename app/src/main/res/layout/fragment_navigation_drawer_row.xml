@@ -44,7 +44,7 @@
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <org.akshara.customviews.CustomTextView
+                <org.partner.customviews.CustomTextView
                     android:id="@+id/menu_title"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
