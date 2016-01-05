@@ -58,10 +58,12 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:23.0.1'
-    compile 'com.afollestad:material-dialogs:0.7.8.1'
+    compile('com.afollestad.material-dialogs:core:0.8.3.0@aar') {
+        transitive = true
+    }
     compile 'com.android.support:recyclerview-v7:23.0.1'
     compile 'com.jayway.android.robotium:robotium-solo:5.4.1'
-     compile "org.ekstep.genieservices:sdks:1.0.+@aar"
+    compile "org.ekstep.genieservices:sdks:1.0.+@aar"
     compile "org.ekstep.genieservices:aidls:1.0.+@aar"
     compile 'com.github.clans:fab:1.6.1'
 
