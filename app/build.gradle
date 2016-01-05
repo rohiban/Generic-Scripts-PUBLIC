@@ -61,11 +61,8 @@ dependencies {
     compile 'com.afollestad:material-dialogs:0.7.8.1'
     compile 'com.android.support:recyclerview-v7:23.0.1'
     compile 'com.jayway.android.robotium:robotium-solo:5.4.1'
-    compile project(':sdks-release')
-    compile project(':aidls-release')
-
-    // compile "org.ekstep.genieservices:sdks:1.0.+@aar"
-    //compile "org.ekstep.genieservices:aidls:1.0.+@aar"
+     compile "org.ekstep.genieservices:sdks:1.0.+@aar"
+    compile "org.ekstep.genieservices:aidls:1.0.+@aar"
     compile 'com.github.clans:fab:1.6.1'
 
 

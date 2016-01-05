@@ -9,9 +9,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/aidls-release" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/sdks-release" />
           </set>
         </option>
       </GradleProjectSettings>
